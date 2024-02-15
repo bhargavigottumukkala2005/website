@@ -1,0 +1,17 @@
+<?php
+$servername = "your_mysql_server";
+$username = "your_mysql_username";
+$password = "your_mysql_password";
+$database = "your_database_name";
+
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Connected successfully";
+} catch (PDOException $e) {
+    echo "Connection failed: " . $e->getMessage();
+}
+
+// Close the connection (optional, as PDO closes the connection automatically when the script ends)
+$conn = null;
+?>
