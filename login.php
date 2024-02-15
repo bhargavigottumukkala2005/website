@@ -78,9 +78,7 @@ session_start();
                         <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Mega Offer</h6>
                         <h1 class="text-white"><span class="text-primary">30% OFF</span> For New Clients</h1>
                     </div>
-                    <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
+                    <p class="text-white">We are here to connect you with the best offers available at the moment.</p>
                         <?php
     // Display login error if it exists
     if (isset($_SESSION['login_error'])) {
@@ -89,9 +87,9 @@ session_start();
     }
     ?> 
                     <ul class="list-inline text-white m-0">
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>This offer is valid for first-time patrons of Celestial Travels only.</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Travel dates are subject to availability and blackout dates may apply.</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Promo code must be entered at the time of booking.</li>
                     </ul>
                 </div>
                 <div class="col-lg-5">
@@ -111,14 +109,6 @@ session_start();
                                 </div>
                                 <div class="form-group">
                                     <input type="password" class="form-control p-4" placeholder="Your password" id="password" name="password" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Select a destination</option>
-                                        <option value="1">destination 1</option>
-                                        <option value="2">destination 1</option>
-                                        <option value="3">destination 1</option>
-                                    </select>
                                 </div>
                                 <div>
                                     <button class="btn btn-primary btn-block py-3" type="submit">Login</button>
