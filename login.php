@@ -110,6 +110,14 @@ session_start();
                                 <div class="form-group">
                                     <input type="password" class="form-control p-4" placeholder="Your password" id="password" name="password" required="required" />
                                 </div>
+                                <div class="form-group">
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Select a destination</option>
+                                        <option value="1">destination 1</option>
+                                        <option value="2">destination 1</option>
+                                        <option value="3">destination 1</option>
+                                    </select>
+                                </div>
                                 <div>
                                     <button class="btn btn-primary btn-block py-3" type="submit">Login</button>
                                 </div>
