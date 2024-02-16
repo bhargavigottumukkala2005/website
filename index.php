@@ -163,14 +163,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
                             <h1 class="display-3 text-white mb-md-4">Let's Discover India Together</h1>
-                            
+                             <!-- Search Form -->
+    <div class="mb-3">
+                         <!--<div class="bg-green" style="padding: 10px;">
+                            <div class="input-group">
+                               <input type="text" class="form-control p-4" placeholder="Search">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-primary border-primary text-white"><i
+                                            class="fa fa-search"></i></span>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                           <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a>-->
+                        </div>
+                    </div>
+                </div>
                 <div class="carousel-item">
                     <img class="w-100" src="images/ind2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
                             <h1 class="display-3 text-white mb-md-4">Discover Amazing Places With Us</h1>
-                            
+                           <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a>-->
                         </div>
                     </div>
                 </div>
@@ -189,7 +204,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     <!-- Carousel End -->
     
-
+   
     <!-- Booking Start -->
     <div class="container-fluid booking mt-5 pb-5">
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
@@ -424,22 +439,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <i class="fa fa-2x fa-route mx-auto mb-4"></i>
-                        <h5 class="mb-2">Travel Guide</h5>
-                        <p class="m-0"></p>
+                        <h5 class="mb-2">Travel Agency</h5>
+                        <p class="m-0">Connecting tourists with local travel agencies enhances the travel experience by providing personalized insights and expertise rooted in the destination's culture and heritage.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <i class="fa fa-2x fa-ticket-alt mx-auto mb-4"></i>
-                        <h5 class="mb-2">Ticket Booking</h5>
-                        <p class="m-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+                        <h5 class="mb-2">Mode Of Transportation</h5>
+                       <p class="m-0">We offer a diverse range of transportation options to suit the preferences of travelers. From trains to modern conveniences such as private cars,flights.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <i class="fa fa-2x fa-hotel mx-auto mb-4"></i>
-                        <h5 class="mb-2">Hotel Booking</h5>
-                        <p class="m-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+                        <h5 class="mb-2">Best time to visit</h5>
+                        <p class="m-0">The best time to visit a destination can vary based on factors such as weather and specific attractions or activities you're interested in.We are here to help to make your Trip exiting.</p>
                     </div>
                 </div>
             </div>
@@ -574,7 +589,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     <!-- Packages End -->
 
-
     <!-- Registration Start -->
     <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
         <div class="container py-5">
@@ -582,15 +596,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <div class="mb-4">
                         <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Mega Offer</h6>
-                        <h1 class="text-white"><span class="text-primary">30% OFF</span> For Honeymoon</h1>
+                        <h1 class="text-white"><span class="text-primary">30% OFF</span> For our new Clients</h1>
                     </div>
-                    <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
+                    <p class="text-white">We are here to connect you with the best offers available at the moment. </p>
                     <ul class="list-inline text-white m-0">
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Terms and conditions</h6>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>This offer is valid for first-time patrons of Celestial Travels only.</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Travel dates are subject to availability and blackout dates may apply.</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Promo code must be entered at the time of booking.</li>
                     </ul>
                 </div>
                 <div class="col-lg-5">
@@ -635,13 +648,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Guides</h6>
-                <h1>Our Travel Guides</h1>
+                <h1>Our Local Travel Agents</h1>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid w-100" src="images/aman.png" alt="">
                             <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -650,15 +663,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
+                            <h5 class="text-truncate">Aman Travels</h5>
+                            <!--<p class="m-0">Designation</p>-->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid w-100" src="images/surya.jpg" alt="">
                             <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -667,15 +680,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
+                            <h5 class="text-truncate">Surya Travels</h5>
+                           <!-- <p class="m-0">Designation</p>-->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                            <img class="img-fluid w-100" src="images/holidays.jpg" alt="">
                             <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -684,15 +697,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
+                            <h5 class="text-truncate">gt holidays</h5>
+                            <!--<p class="m-0">Designation</p>-->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
                     <div class="team-item bg-white mb-4">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                            <img class="img-fluid w-100" src="images/expedia.png" alt="">
                             <div class="team-social">
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -701,8 +714,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
+                            <h5 class="text-truncate">Expedia</h5>
+                            <!--<p class="m-0">Designation</p>-->
                         </div>
                     </div>
                 </div>
@@ -710,7 +723,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
     <!-- Team End -->
-
 
     <!-- Testimonial Start -->
     <div class="container-fluid py-5">
@@ -723,44 +735,43 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="text-center pb-4">
                     <img class="img-fluid mx-auto" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        <p class="mt-5">"This travel website offers  comprehensive travel guides, and unbeatable deals, making trip planning a breeze!"
                         </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">Chris Adam</h5>
+                        <span>Lawyer</span>
                     </div>
                 </div>
                 <div class="text-center">
                     <img class="img-fluid mx-auto" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        <p class="mt-5">"I highly recommend this travel website for its user-friendly interface,interact freely with us, health-related travel tips for traveler".
                         </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">Eva han</h5>
+                        <span>Doctor</span>
                     </div>
                 </div>
                 <div class="text-center">
                     <img class="img-fluid mx-auto" src="img/testimonial-3.jpg" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        <p class="mt-5">"I endorse this travel website for its convenient itinerary customization, fitness-friendly destination suggestions ."
                         </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">Robert Kerix</h5>
+                        <span>Physical Trainer</span>
                     </div>
                 </div>
                 <div class="text-center">
                     <img class="img-fluid mx-auto" src="img/testimonial-4.jpg" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        <p class="mt-5">" I applaud this travel website for its efficiency in organizing business trips,saving valuable time for busy professionals."
                         </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">Steven Wornhouse</h5>
+                        <span>Enterprenuer</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Testimonial End -->
-
 
     <!-- Blog Start -->
     <div class="container-fluid py-5">
@@ -776,16 +787,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <img class="img-fluid w-100" src="img/blog-1.jpg" alt="">
                             <div class="blog-date">
                                 <h6 class="font-weight-bold mb-n1">01</h6>
-                                <small class="text-white text-uppercase">Jan</small>
+                               <!-- <small class="text-white text-uppercase">Jan</small>-->
                             </div>
                         </div>
                         <div class="bg-white p-4">
                             <div class="d-flex mb-2">
-                                <a class="text-primary text-uppercase text-decoration-none" href="">Admin</a>
+                                <a class="text-primary text-uppercase text-decoration-none" href="">Expedia</a>
                                 <span class="text-primary px-2">|</span>
                                 <a class="text-primary text-uppercase text-decoration-none" href="">Tours & Travel</a>
                             </div>
-                            <a class="h5 m-0 text-decoration-none" href="">Dolor justo sea kasd lorem clita justo diam amet</a>
+                            <a class="h5 m-0 text-decoration-none" href="">Explore the world , one experience at a time.</a>
                         </div>
                     </div>
                 </div>
@@ -794,17 +805,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="position-relative">
                             <img class="img-fluid w-100" src="img/blog-2.jpg" alt="">
                             <div class="blog-date">
-                                <h6 class="font-weight-bold mb-n1">01</h6>
-                                <small class="text-white text-uppercase">Jan</small>
+                                <h6 class="font-weight-bold mb-n1">02</h6>
+                               <!-- <small class="text-white text-uppercase">Jan</small>-->
                             </div>
                         </div>
                         <div class="bg-white p-4">
                             <div class="d-flex mb-2">
-                                <a class="text-primary text-uppercase text-decoration-none" href="">Admin</a>
+                                <a class="text-primary text-uppercase text-decoration-none" href="">gtholidays</a>
                                 <span class="text-primary px-2">|</span>
                                 <a class="text-primary text-uppercase text-decoration-none" href="">Tours & Travel</a>
                             </div>
-                            <a class="h5 m-0 text-decoration-none" href="">Dolor justo sea kasd lorem clita justo diam amet</a>
+                            <a class="h5 m-0 text-decoration-none" href="">Discover the world, redefine your journey.</a>
                         </div>
                     </div>
                 </div>
@@ -813,17 +824,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="position-relative">
                             <img class="img-fluid w-100" src="img/blog-3.jpg" alt="">
                             <div class="blog-date">
-                                <h6 class="font-weight-bold mb-n1">01</h6>
-                                <small class="text-white text-uppercase">Jan</small>
+                                <h6 class="font-weight-bold mb-n1">03</h6>
+                                <!--<small class="text-white text-uppercase">Jan</small>-->
                             </div>
                         </div>
                         <div class="bg-white p-4">
                             <div class="d-flex mb-2">
-                                <a class="text-primary text-uppercase text-decoration-none" href="">Admin</a>
+                                <a class="text-primary text-uppercase text-decoration-none" href="">Aman</a>
                                 <span class="text-primary px-2">|</span>
                                 <a class="text-primary text-uppercase text-decoration-none" href="">Tours & Travel</a>
                             </div>
-                            <a class="h5 m-0 text-decoration-none" href="">Dolor justo sea kasd lorem clita justo diam amet</a>
+                            <a class="h5 m-0 text-decoration-none" href="">Crafting memories , one destination at a time.</a>
                         </div>
                     </div>
                 </div>
@@ -833,8 +844,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- Blog End -->
 
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+   <!-- Footer Start -->
+   <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="" class="navbar-brand">
@@ -852,25 +863,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Destination</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Packages</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Guides</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                    <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About</a> 
+                    <a class="text-white-50 mb-2" href="destination.html"><i class="fa fa-angle-right mr-2"></i>Destination</a>
+                    <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                    <a class="text-white-50 mb-2" href="package.html"><i class="fa fa-angle-right mr-2"></i>Packages</a>
+                    <a class="text-white-50 mb-2" href="guide.html"><i class="fa fa-angle-right mr-2"></i>Guides</a>
+                    <a class="text-white-50 mb-2" href="testimonial.html"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+                    <a class="text-white-50" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Blog</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Destination</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Packages</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Guides</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                    <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About</a>
+                    <a class="text-white-50 mb-2" href="destination.html"><i class="fa fa-angle-right mr-2"></i>Destination</a>
+                    <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                    <a class="text-white-50 mb-2" href="package.html"><i class="fa fa-angle-right mr-2"></i>Packages</a>
+                    <a class="text-white-50 mb-2" href="guide.html"><i class="fa fa-angle-right mr-2"></i>Guides</a>
+                    <a class="text-white-50 mb-2" href="testimonial.html"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+                    <a class="text-white-50" href="blog.html"><i class="fa fa-angle-right mr-2"></i>Blog</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
@@ -893,13 +904,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white-50">Copyright &copy; <a href="#">Domain</a>. All Rights Reserved.</a>
+                <p class="m-0 text-white-50">Copyright &copy; <a href="#">Celestial</a>. All Rights Reserved.</a>
                 </p>
             </div>
         </div>
     </div>
     <!-- Footer End -->
-   
 <!-- end of not needed-->
 
     <!-- Back to Top -->
