@@ -203,7 +203,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <select class="custom-select px-4" style="height: 47px;" id="searchTerm" name="searchTerm">
                                         <option selected>STATE</option>
                                         <option value="1">Andhra Pradesh</option>
-                                        <option value="1">Andaman and Nicobar Islands</option>
                                         <option value="2">Arunachal Pradesh</option>
                                         <option value="3">Assam</option>
                                         <option value="4">Bihar</option>
@@ -232,6 +231,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <option value="27">Uttar Pradesh</option>
                                         <option value="28">Uttarkhand</option>
                                         <option value="29">West Bengal</option>
+                                        <option value="30">Andaman and Nicobar Islands</option>
                                     </select>
                                 </div>
                             </div>
