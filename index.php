@@ -201,8 +201,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <div class="col-md-3">
                                 <div class="mb-3 mb-md-0">
                                     <select class="custom-select px-4" style="height: 47px;" id="searchTerm" name="searchTerm">
-                                        <option selected>STATE11</option>
+                                        <option selected>STATE</option>
                                         <option value="1">Andhra Pradesh</option>
+                                        <option value="1">Andaman and Nicobar Islands</option>
                                         <option value="2">Arunachal Pradesh</option>
                                         <option value="3">Assam</option>
                                         <option value="4">Bihar</option>
