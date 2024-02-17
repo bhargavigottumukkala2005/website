@@ -112,10 +112,9 @@ session_start();
                                 </div>
                                 <div class="form-group">
                                     <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Select a destination</option>
-                                        <option value="1">destination 1</option>
-                                        <option value="2">destination 1</option>
-                                        <option value="3">destination 1</option>
+                                        <option selected>Did you travel with us before?</option>
+                                        <option value="1">Yes</option>
+                                        <option value="2">No</option>
                                     </select>
                                 </div>
                                 <div>

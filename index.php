@@ -142,7 +142,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact1.php" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -268,9 +268,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <div class="mb-3 mb-md-0">
                                     <select class="custom-select px-4" style="height: 47px;">
                                         <option selected>Duration</option>
-                                        <option value="1">1 Week</option>
-                                        <option value="2">15 Days</option>
-                                        <option value="3">More than 3 weeks</option>
+                                        <option value="1">1 hour</option>
+                                        <option value="2">6 hours</option>
                                     </select>
                                 </div>
                             </div>
@@ -589,7 +588,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     <!-- Packages End -->
 
-    <!-- Registration Start -->
+    <!-- Registration Start 
     <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
         <div class="container py-5">
             <div class="row align-items-center">
@@ -637,7 +636,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
         </div>
     </div>
-    <!-- Registration End -->
+     Registration End -->
     
                  
 <!--below not needed ,just for sake of preservence kept it-->
